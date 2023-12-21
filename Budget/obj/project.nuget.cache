@@ -4,7 +4,7 @@
   "success": true,
   "projectFilePath": "C:\\Users\\howard.chen36\\RiderProjects\\TDD\\Budget\\Budget.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\howard.chen36\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
+    "C:\\Users\\howard.chen36\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\howard.chen36\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\howard.chen36\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\howard.chen36\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
@@ -18,30 +18,6 @@
       "level": "Warning",
       "warningLevel": 1,
       "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.coreop.net/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.OpenApi' from remote source 'http://nuget.coreop.net/nuget/FindPackagesById()?id='Microsoft.AspNetCore.OpenApi'&semVerLevel=2.0.0'.",
-      "libraryId": "Microsoft.AspNetCore.OpenApi"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
-      "libraryId": "Microsoft.AspNetCore.OpenApi"
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Budget depends on Microsoft.AspNetCore.OpenApi (>= 7.0.3) but Microsoft.AspNetCore.OpenApi 7.0.3 was not found. An approximate best match of Microsoft.AspNetCore.OpenApi 7.0.5 was resolved.",
-      "libraryId": "Microsoft.AspNetCore.OpenApi",
-      "targetGraphs": [
-        "net7.0"
-      ]
     }
   ]
 }

@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Microsoft.AspNetCore.OpenApi/7.0.5": {
+      "Microsoft.AspNetCore.OpenApi/7.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
@@ -111,10 +111,10 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.OpenApi/7.0.5": {
-      "sha512": "yxFvk9BsgL/eDJVsPp0zbUpL73u9uXLYTnWoMBvnJdm8+970YuhM2XWcDOyetjkp8l8z00MHgfYHCRXOnLx/+Q==",
+    "Microsoft.AspNetCore.OpenApi/7.0.3": {
+      "sha512": "nihfseI7Jpaogc5bPAbta17sFzhyXwwC74xAhOyc6cgqriJQ2eB4TcJsAi4NePT2q+pFfEAtSCgPXw4IdJOF0w==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/7.0.5",
+      "path": "microsoft.aspnetcore.openapi/7.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -122,7 +122,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll",
         "lib/net7.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
@@ -535,30 +535,6 @@
       "level": "Warning",
       "warningLevel": 1,
       "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.coreop.net/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.OpenApi' from remote source 'http://nuget.coreop.net/nuget/FindPackagesById()?id='Microsoft.AspNetCore.OpenApi'&semVerLevel=2.0.0'.",
-      "libraryId": "Microsoft.AspNetCore.OpenApi"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
-      "libraryId": "Microsoft.AspNetCore.OpenApi"
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Budget depends on Microsoft.AspNetCore.OpenApi (>= 7.0.3) but Microsoft.AspNetCore.OpenApi 7.0.3 was not found. An approximate best match of Microsoft.AspNetCore.OpenApi 7.0.5 was resolved.",
-      "libraryId": "Microsoft.AspNetCore.OpenApi",
-      "targetGraphs": [
-        "net7.0"
-      ]
     }
   ]
 }

@@ -8,6 +8,12 @@ public class Budget
 
     public int GetPartialAmount(int days)
     {
-        return Amount/StartOfMonth.Day * days;
+        return Amount/DateTime.DaysInMonth(StartOfMonth.Year, StartOfMonth.Month) * days;
+    }
+
+    public bool IsSameMonth(DateTime startDate)
+    {
+        return StartOfMonth.Year == startDate.Year &&
+               StartOfMonth.Month == startDate.Month;
     }
 }
